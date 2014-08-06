@@ -30,11 +30,9 @@ public class MainActivity extends ActionBarActivity {
 			public void onClick(View v) {
 				// The button was clicked, so update answer
 				String answer = "Yes";
-				answerLabel.setText(answer);
-				
+				answerLabel.setText(answer);			
 			}
 		});
-
     }
 
 
@@ -57,6 +55,4 @@ public class MainActivity extends ActionBarActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
-
 }
